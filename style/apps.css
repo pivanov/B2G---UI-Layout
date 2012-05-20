@@ -1,0 +1,88 @@
+/*=== toolbar-top ===*/
+.toolbar-top {
+	height: 4.9333rem;
+	line-height: 4.9333rem;
+	padding: 0 2rem;
+	color: #fff;
+	font-size:2.4666rem;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 0.0666rem solid #a23624;
+  background: -moz-linear-gradient(top, #cc6523, #bc4a2d);
+}
+
+/*=== toolbar-end ===*/
+.toolbar-end {
+	width: 100%;
+	height: 4.9333rem;
+	line-height: 4.9333rem;
+	color: #fff;
+	font-size:2.4666rem;
+	font-family: 'Open Sans', sans-serif;
+	border-top: 0.0666rem solid #303030;
+  background: #707070;
+}
+
+/*=== button ===*/
+button {
+	position: relative;
+	width: 8.6rem;
+	height: 3rem;
+	color: #fff;
+	border: none;
+	border-bottom: 0.0666rem solid #a23624;
+	border-radius: 4px;
+  background: -moz-linear-gradient(top, #cc6523, #bc4a2d);
+	font-size:1.5rem;
+	margin: .5rem;
+}
+
+button:active {
+	background: #bc4a2d;
+}
+
+/* blue */
+button.blue {
+	background: -moz-linear-gradient(top, #99e2ff, #0798ff);
+	border-color: #0886df;
+}
+
+button.blue:active {
+	background: #0798ff;
+}
+
+/* green */
+button.green {
+  background: -moz-linear-gradient(top, #ccff00, #28b800);
+	border-color: #29a000;
+}
+
+button.green:active {
+	background: #28b800;
+}
+
+button[disabled] {
+	color: #f2f2f2;
+  background: #ccc;
+  border-color: #ccc;
+}
+
+button[disabled]:active {
+	background: #dbdbdb;
+}
+
+/*=== button with icon ===*/
+button.icon {
+	padding-left: 2.4rem;
+}
+
+button.icon span {
+	position: absolute;
+	top:0;
+	bottom:0;
+	left: 0;
+	width: 3rem;
+}
+
+button.icon:active span {
+  -moz-transform: scale(0.9);
+}

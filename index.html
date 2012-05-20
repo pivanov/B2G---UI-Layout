@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>B2G-UI-Layout</title>
+	<link rel="stylesheet" type="text/css" href="style/base.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="style/apps.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="style/480x800-217.css" media="all and (max-width: 56mozmm)">
+</head>
+<body>
+	<!-- statusbar -->
+	<div id="statusbar">
+		<div class="time" data-format="%H:%M">12:34<span>pm</span></div>
+	  <div class="battery">
+	    <div id="fuel"></div>
+	  </div>
+	  <div id="signal">
+	    <span class="haveSignal"></span>
+	    <span class="haveSignal"></span>
+	    <span class="haveSignal"></span>
+	    <span class="haveSignal"></span>
+	    <span class=""></span>
+	  </div>
+	</div>
+
+	<!-- view -->
+	<div class="view">
+		<div class="toolbar-top">Inbox</div>
+		<div class="content" id="c">
+
+			<div style="text-align:center;margin:0.7rem 0 2rem;font-size:0;">
+				<button>Button</button>
+				<button class="blue">Button</button>
+				<button class="green">Button</button>
+				<button class="icon close"><span></span>Button</button>
+				<button class="blue icon star"><span></span>Button</button>
+				<button class="green icon reload"><span></span>Button</button>
+				<button disabled class="icon close"><span></span>Button</button>
+				<button disabled class="blue icon star"><span></span>Button</button>
+				<button disabled class="green icon reload"><span></span>Button</button>
+			</div>
+			<p>Firefox for Windows, Mac and Linux makes updating the browser easier and includes more than 85 improvements to built-in developer tools.</p>
+			<p>We put a lot of work into making the Firefox update experience easier. Firefox simplifies the update process for Windows users by removing the user account control dialog (UAC) pop-up while maintaining the security of your system. Once a user gives explicit permission to Firefox on their first installation, they will not be prompted again for subsequent releases.</p>
+			<p>Firefox also includes more than 85 improvements to built-in developer tools. For example, developers no longer need to reload the page to see messages in the Web Console, and Scratchpad adds Find and Jump to Line commands to the editor. Our improvements touched on every one of the built-in tools.</p>
+		</div>
+	</div>
+
+	<!-- toolbar-end -->
+	<div class="toolbar-end"></div>
+</body>
+</html>

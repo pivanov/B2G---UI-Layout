@@ -1,0 +1,40 @@
+html, body {
+  font-size: 15px;
+}
+
+.view {
+	height: -moz-calc(100% - 7rem);
+	overflow-y: hidden;
+	background: #fff;
+}
+
+.content {
+	-moz-box-sizing: border-box;
+	height: -moz-calc(100% - 4.9333rem);
+	padding: 1.3333rem;
+	font-size:1.8rem;
+	overflow-y: scroll;
+	box-shadow: inset 0 0 5px 1px #888;
+}
+
+.content p {
+	margin: 0 0 1em;
+}
+
+/*=== battery ===*/
+.battery {
+	background: url(images/480x800-217/battery.png);
+}
+
+/*=== button with icon ===*/
+button.icon.close span {
+	background: url(images/480x800-217/close.png) no-repeat 50% 50%;
+}
+
+button.icon.star span {
+	background: url(images/480x800-217/star.png) no-repeat 50% 50%;
+}
+
+button.icon.reload span {
+	background: url(images/480x800-217/reload.png) no-repeat 50% 50%;
+}
